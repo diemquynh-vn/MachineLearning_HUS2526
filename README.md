@@ -3,34 +3,7 @@
 **PROJECT: ANALYSIS AND PREDICTION OF STOCK PRICES IN THE BEER – ALCOHOL INDUSTRY**
 ---
 
-## 1. Team Members and Task Assignment
-**Team Members:**
-* **Lưu Thị Thủy Tiên** (Team Leader)
-* **Dương Diễm Quỳnh**
-* **Lê Xuân Lộc**
-
-**Task Assignment:**
-
-**Lê Xuân Lộc**
-* Data preprocessing and statistical analysis.
-* Dimensionality reduction using PCA and data visualization.
-* Perform clustering using the Gaussian Mixture Model (GMM) algorithm.
-* Analyze and interpret clustering results.
-
-**Dương Diễm Quỳnh**
-* Build and train the Linear Regression model.
-* Perform clustering using the DBSCAN algorithm.
-* Perform classification using Gaussian Naive Bayes.
-* Evaluate models and analyze experimental results.
-
-**Lưu Thị Thủy Tiên**
-* Build and train the KNN model for regression.
-* Perform clustering using the K-Means algorithm.
-* Perform classification using Decision Tree.
-* Evaluate models and analyze experimental results.
----
-
-## 2. Problem Description
+## 1. Problem Description
 The project focuses on analyzing and predicting stock prices of five companies in the beer – alcohol – beverage industry in Vietnam, including the stock codes: HBH, SMB, BHN, SAB, and HAV.
 The objectives of the project are:
 * To build machine learning models to predict the closing price (Close) of stocks based on historical trading features.
@@ -39,7 +12,7 @@ The objectives of the project are:
 * To identify important factors affecting stock price fluctuations and support investment decision-making.
 ---
 
-## 3. Data Description
+## 2. Data Description
 ### Data Source
 The data was manually collected from the financial website Simplize by downloading `.xlsx` files for each stock code during the period 2021–2025.
 Each file contains historical trading data of a company operating in the beer – alcohol – beverage industry.
@@ -65,7 +38,7 @@ After collecting the data, the team performed the following steps:
 * Prepared datasets for regression, classification, and clustering tasks.
 ---
 
-## 5. Experimental Scenario
+## 3. Experimental Scenario
 The experimental workflow of the project is conducted through the following steps:
 1. Collect historical trading data of five stock codes from the Simplize website.
 2. Perform data preprocessing: merge datasets, clean data, normalize features, and conduct descriptive statistics.
